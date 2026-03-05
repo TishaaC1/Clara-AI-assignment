@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# Clara AI Voice Agent Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Project Overview
 
-## Available Scripts
+Clara AI Voice Agent Dashboard is a web-based platform designed to manage and analyze AI-driven voice call interactions. The system allows users to track call records, monitor customer interactions, and analyze call insights through a clean dashboard interface.
 
-In the project directory, you can run:
+The project integrates an AI voice agent backend with a modern frontend dashboard to display call history, summaries, intents, and customer information. It is built to demonstrate how AI-powered voice systems can be monitored and managed effectively through a web application.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* 📞 **Call History Dashboard** – View and manage AI voice call records
+* 🔍 **Search & Filter** – Easily find call records by name or phone number
+* 📊 **Call Insights** – Display intent detection and summarized call information
+* ⚡ **Real-Time Interface** – Interactive dashboard for monitoring call activity
+* 🤖 **AI Voice Integration** – Supports AI-driven voice call workflows
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+### Frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* **React.js**
+* **JavaScript (ES6+)**
+* **HTML5**
+* **CSS3**
+* **Tailwind CSS**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* **Node.js**
+* **Express.js**
 
-### `npm run eject`
+### AI / Voice Integration
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* **Retell AI SDK**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Data & Tools
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* **Firebase Admin**
+* **PapaParse**
+* **REST APIs**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Development Tools
 
-## Learn More
+* **Git**
+* **GitHub**
+* **Vercel (deployment configuration)**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📂 Project Structure
 
-### Code Splitting
+```
+clara-ai-assignment
+│
+├── voice-main
+│   ├── public
+│   ├── src
+│   ├── server
+│   ├── package.json
+│   └── tailwind.config.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## ⚙️ Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 1️⃣ Clone the repository
 
-### Making a Progressive Web App
+```bash
+git clone https://github.com/TishaaC1/clara-ai-assignment.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 2️⃣ Navigate to the project
 
-### Advanced Configuration
+```bash
+cd clara-ai-assignment
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 3️⃣ Install dependencies
 
-### Deployment
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 4️⃣ Start the development server
 
-### `npm run build` fails to minify
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application will run at:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📈 Future Improvements
+
+* Add analytics dashboards for call metrics
+* Integrate database storage for call records
+* Implement authentication and user management
+* Improve AI insights and reporting
+
+---
+
+## 👩‍💻 Author
+
+**Tishaa Chandwani**
+Computer Science Engineering Student – VIT Bhopal
+
+GitHub: https://github.com/TishaaC1
